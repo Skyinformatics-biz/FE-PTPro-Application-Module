@@ -16,7 +16,7 @@ services:
     ports:
       - "4800:4800"
     volumes:
-      - ./module:/usr/www/app/src/modules/application
+      - ./:/usr/www/app/src/modules/application
     #command: sh -c "/tmp/submodules.sh"
     networks:
       - app-network
